@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Mobile Coursework 01</string>
+
+    <string-array name="vehicales_names">
+        <item>Alto</item>
+        <item>Aqua</item>
+        <item>Baleno</item>
+        <item>Bezza</item>
+        <item>BMW_3_Serie</item>
+        <item>BMW_M4</item>
+        <item>BMW_X3</item>
+        <item>Camry</item>
+        <item>Celerio_X</item>
+        <item>Corolla</item>
+        <item>Glanza</item>
+        <item>Grand WagonR</item>
+        <item>Honda Brv</item>
+        <item>Honda City</item>
+        <item>Honta Civic</item>
+        <item>Honda Hr-V</item>
+        <item>Honda Fit</item>
+        <item>Jazza</item>
+        <item>Maruti</item>
+        <item>Micra</item>
+        <item>Nissan GTR</item>
+        <item>Nissan Terra</item>
+        <item>Premio</item>
+        <item>Prius</item>
+        <item>Sunny</item>
+        <item>Suzuki</item>
+        <item>Vezel</item>
+        <item>Viva Elite</item>
+        <item>Volvo</item>
+        <item>Yaris</item>
+    </string-array>
+
+    <string name="your_win">Correct !!!</string>
+    <string name="your_lose">Wrong !!!</string>
+
+
+
+    <string name="action_settings">settings</string>
+    <string name="Toyota">Toyota</string>
+    <string name="BMW">BMW</string>
+    <string name="HONDA">HONDA</string>
+
+
+
+</resources>

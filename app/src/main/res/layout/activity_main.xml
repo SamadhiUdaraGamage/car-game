@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEB887"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/Identify_Car_Make"
+        android:layout_width="273dp"
+        android:layout_height="61dp"
+        android:background="@drawable/button_background"
+        android:onClick="Identify_Car_Make"
+        android:text="Identify the Car Make"
+        android:textSize="18sp"
+        app:backgroundTint="#E91E63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.351"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/Hint"
+        android:layout_width="267dp"
+        android:layout_height="61dp"
+        android:background="@drawable/button_background"
+        android:onClick="Hint"
+        android:text="Hints"
+        android:textSize="18sp"
+        app:backgroundTint="#E91E63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/Advanced_Level"
+        android:layout_width="284dp"
+        android:layout_height="57dp"
+        android:background="@drawable/button_background"
+        android:onClick="Advanced_Level"
+        android:text="Advanced Level"
+        android:textSize="18sp"
+        app:backgroundTint="#E91E63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/Identify_Car_Image"
+        android:layout_width="283dp"
+        android:layout_height="55dp"
+        android:background="@drawable/button_background"
+        android:onClick="Identify_Car_Image"
+        android:text="Identify the Car Image"
+        android:textSize="18sp"
+        app:backgroundTint="#E91E63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657" />
+
+
+    <Switch
+        android:id="@+id/switch_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:background="@drawable/button_background_switch"
+        android:checked="false"
+        android:text="Timer"
+        android:textColor="#FFFFFF"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="18sp"
+        android:theme="@style/SCBSwitch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187"
+        tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml" />
+
+    <TextView
+        android:id="@+id/game_title"
+        android:layout_width="224dp"
+        android:layout_height="60dp"
+        android:text="CAR GAME"
+        android:textColor="#E80954"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
